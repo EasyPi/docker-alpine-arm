@@ -17,12 +17,12 @@ make test RELEASE=edge
 make push RELEASE=edge
 make clean
 
-make RELEASE=v3.8
-make test RELEASE=v3.8
-make push RELEASE=v3.8
+make RELEASE=v3.10
+make test RELEASE=v3.10
+make push RELEASE=v3.10
 make clean
 
-make latest RELEASE=v3.8
+make latest RELEASE=v3.10
 make test RELEASE=latest
 make push RELEASE=latest
 ```
